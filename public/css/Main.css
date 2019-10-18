@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto&display=swap');
+body, html{
+padding: 0;
+font-family: 'Roboto', sans-serif;
+margin: 0 auto;
+}
+
+
+
+.nav-wrapper{
+    padding: 0 40px;
+}
+#card-image img{
+    border-radius: 20px;
+}
+
+#card-image:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#card-image{
+    border-radius: 20px;
+    -moz-transition: all 1.3s;
+	-webkit-transition: all 1.3s;
+    transition: all 1.3s;
+    cursor: pointer;
+}
+
+#banners{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    background-size: cover; 
+}
+
+#card{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden; 
+ 
+}
+
+#deslogo{
+    padding: 0;
+    margin: 0;
+}
+
+#deslogo h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #7c4dff;
+    font-size: 28pt;
+}
+
+
+/* footer */
+
+#footer{
+    line-height: 1.2;
+}
+#footer .row .col h3{
+    color: gold;
+    font-size: 14pt;
+}
+
+#footer .row .col p{
+    color: white;
+    font-size: 10pt
+}
+
+#footer #rights h3{
+    color: gold;
+    font-size: 12pt;
+}
+
+#socials{
+    text-align: center;
+}
+
+
+#socials img{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+#footerInfo{
+    padding: 10px;
+}
+
+#ftCol{
+    text-justify: auto;
+    margin: 10px;
+}
+
+
+
+/* footer */
+
+#cardSalgado{
+    border: 3px solid #00acc1 ;   
+}
+
+#cardSobremesa{
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, #22A5F1, #7c4dff);
+    border-image-slice: 1;
+    
+}
+
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    margin: 0 auto; 
+    align-items: center;
+    justify-content: center;
+}
+
+#teste img{
+    width: 220px ;
+    height: 180px;
+}
+
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#cards-content{
+    display: block;
+}
+#cards-content h2{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: 700;
+}
+
+#cardzin{
+    overflow: hidden;
+    margin: 20px;
+}
+
+#cardzin-image{
+    overflow: hidden;
+    background-size: cover;
+}
+
+#cardzin-image img{
+    height: 100%;
+    width: 150px;
+}
+
+#sugestions{
+    display: flex;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #c1a3f5;    
+}
+
+#sugestions h1{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 42pt;
+}
+
+#sugestions h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+}
+
+.input-field input{
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important; 
+}
+
+.input-field input:focus {
+    border-bottom: 1px solid black !important;
+    box-shadow: 0 1px 0 0 black !important;
+}
+.input-field textarea {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+}
+
+.input-field textarea:focus {
+    border-bottom: 1px solid black !important;
+    box-shadow: 0 1px 0 0 black !important;
+}
+
+#myrec{
+    text-align: center;
+}
